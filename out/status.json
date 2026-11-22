@@ -1,18 +1,22 @@
 {
- "made_at": "2026-11-23T07:41:18+09:00",
- "target": "",
- "result": "NOCHANGE",
- "reason": "[us] 지금은 새로 낼 때가 아님 / [pre] 지금은 새로 낼 때가 아님",
- "done": [],
- "made": {},
+ "made_at": "2026-11-23T08:39:09+09:00",
+ "target": "pre: 11/23(월)",
+ "result": "PUBLISH",
+ "reason": "[us] 지금은 새로 낼 때가 아님 / [pre] 새로 계산해 저장",
+ "done": [
+  "pre"
+ ],
+ "made": {
+  "pre": "2026-11-23 08:39"
+ },
  "yahoo_http": 200,
  "log_tail": [
-  "한국시간 2026-11-23 07:41 기준 계산",
+  "한국시간 2026-11-23 08:39 기준 계산",
   "[us] 지금은 새로 낼 때가 아님",
-  "[pre] 지금은 새로 낼 때가 아님",
-  "RESULT=NOCHANGE",
+  "[pre] 새로 계산해 저장",
+  "RESULT=PUBLISH",
   "NEW_FILE=work/outlook_latest.json",
-  "SUMMARY={\"done\": [], \"made\": {}, \"target_ko\": {}}",
-  "RESULT=NOCHANGE"
+  "SUMMARY={\"done\": [\"pre\"], \"made\": {\"pre\": \"2026-11-23 08:39\"}, \"target_ko\": {\"pre\": \"11/23(월)\"}}",
+  "RESULT=PUBLISH"
  ]
 }
